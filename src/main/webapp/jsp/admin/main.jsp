@@ -5,7 +5,7 @@ pageEncoding="UTF-8"%>
 <html>
 <head>
   <title>Admin</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}\css\style.css">
 </head>
 <body>
 <div class="wrapper">

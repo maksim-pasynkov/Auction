@@ -3,7 +3,7 @@ pageEncoding="ISO-8859-1"%>
 <html>
 <head>
   <title>Login</title>
-  <link rel="stylesheet" href="loginCss.css">
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}\css\loginCss.css">
 </head>
 <body>
 <form name="loginForm" method="POST" action="controller">
