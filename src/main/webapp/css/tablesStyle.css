@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(90deg,#d86a65,#935c95,#1e5a84);
+    background: linear-gradient(90deg,#d86a65,#935c95,#1e5a84);
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 40px auto;
+    padding: 2%;
+    border-radius: 25px;
+    background: rgba(255,255,255,.4);
+}
+
+.actions {
+    display: flex;
+    margin: 0 20px 20px 0;
+}
+
+.exit {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.actions input, .exit input, .bit-btn {
+    padding: 0.7em;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255,255,255,.7);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.actions input:hover, .exit input:hover, .bit-btn:hover {
+    background: #d3cfcf;
+}
+
+.actions input {
+    margin-right: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,.4);
+}
+
+.second-table {
+    display: none;
+    width: 70%;
+    margin: 0 auto 20px;
+}
+
+td, th {
+    padding: .5em;
+    border: 1px solid black;
+}
+
+.second-table td {
+    display: flex;
+    justify-content: space-between;
+}
+
+tr div {
+    padding: .4em;
+}
+
+@media (max-width: 900px) {
+    .second-table {
+        display: table;
+    }
+
+    .first-table {
+        display: none;
+    }
+
+}

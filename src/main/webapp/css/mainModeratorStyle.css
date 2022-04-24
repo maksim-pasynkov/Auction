@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(90deg,#d86a65,#935c95,#1e5a84);
+    background: linear-gradient(90deg,#d86a65,#935c95,#1e5a84);
+}
+
+.wrapper {
+    padding: 4em;
+}
+
+.exit {
+    display: flex;
+    justify-content: end;
+}
+
+.exit input {
+    width: 150px;
+    margin-bottom: 3em;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.exit input:hover {
+    background: #d06769;
+    color: #fff;
+}
+
+.main-buttons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.mod-main-buttons {
+    font-size: 70px;
+    padding: 2.5em;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn-wrapper {
+    margin-right: 3em;
+    border-radius: 50px;
+    transition: .4s;
+}
+
+.btn-wrapper:hover {
+    transform: translateY(-20px);
+}
+
+.mod-main-buttons {
+    width: 100%;
+    background: rgba(0,0,0,.3);
+}
+
+.items {
+    background: url("https://static.mk.ru/upload/entities/2021/05/07/20/articles/detailPicture/a7/00/fd/10/14606e0d0edd12dbdd41343ea038484d.jpg");
+    background-size: cover;
+}
+
+.users {
+    background: url("https://www.appsflyer.com/wp-content/uploads/2021/08/Active-users.jpg");
+    background-size: contain;
+}
+
+@media (max-width: 1250px) {
+    .mod-main-buttons {
+        font-size: 50px;
+    }
+}

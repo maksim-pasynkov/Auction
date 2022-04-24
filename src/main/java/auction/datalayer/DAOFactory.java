@@ -32,5 +32,35 @@ public abstract class DAOFactory {
 	public abstract UserTypesDAO getUserTypesDAO();
 	
 	public abstract UncheckedUsersDAO getUncheckedUsersDAO();
+	
+	public abstract ActivateItemDAO getActivateItemDAO();
+	
+	public abstract ActiveItemsDAO getActiveItemsDAO();
+	
+	public abstract BoughtItemsDAO getBoughtItemsDAO();
+	
+	public abstract BuyItemDAO getBuyItemDAO();
+	
+	public abstract DeactivateItemDAO getDeactivateItemDAO();
+	
+	public abstract DeleteItemDAO getDeleteItemDAO();
+	
+	public abstract ItemByIdDAO getItemByIdDAO();
+	
+	public abstract ItemCategoriesDAO getItemCategoriesDAO();
+	
+	public abstract MaxItemIdDAO getMaxItemIdDAO();
+	
+	public abstract MyItemsDAO getMyItemsDAO();
+	
+	public abstract SaveCheckItemsDAO getSaveCheckItemsDAO();
+	
+	public abstract SaveItemChangesDAO getSaveItemChangesDAO();
+	
+	public abstract SaveItemDAO getSaveItemDAO();
+	
+	public abstract UncheckedItemsDAO getUncheckedItemsDAO();
+	
+	public abstract WithdrawItemDAO getWithdrawItemDAO();
 }
 

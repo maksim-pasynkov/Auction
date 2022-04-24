@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(90deg,#d86a65,#935c95,#1e5a84);
+    background: linear-gradient(90deg,#d86a65,#935c95,#1e5a84);
+}
+
+.wrapper {
+    padding: 4em;
+}
+
+.exit {
+    display: flex;
+    justify-content: end;
+}
+
+.exit input {
+    width: 150px;
+    margin-bottom: 3em;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.exit input:hover {
+    background: #d06769;
+    color: #fff;
+}
+
+.main-buttons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.mod-main-buttons {
+    font-size: 50px;
+    padding: 2.5em .6em;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn-wrapper {
+    border-radius: 50px;
+    margin-right: 3em;
+    flex-grow: 1;
+    transition: .4s;
+}
+
+.btn-wrapper:hover {
+    transform: translateY(-20px);
+}
+
+.mod-main-buttons {
+    width: 100%;
+    height: inherit;
+    background: rgba(0,0,0,.3);
+}
+
+.sale-catalogue {
+    background: url("https://images.pexels.com/photos/6348/reading-magazine-open-newspaper.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center;
+    background-size: cover;
+}
+
+.my-items {
+    background: url("https://images.pexels.com/photos/64824/pexels-photo-64824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat bottom;
+    background-size: cover;
+}
+
+.bought-items {
+    background: url("https://images.pexels.com/photos/4025825/pexels-photo-4025825.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center;
+    background-size: cover;
+}
+
+@media (max-width: 1350px) {
+    .mod-main-buttons {
+        font-size: 30px;
+    }
+}
